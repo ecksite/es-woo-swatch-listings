@@ -1,0 +1,55 @@
+/*.es-swatches-color-options{
+	width: 20px;
+	height: 20px;
+	border-radius: 500px;
+	display: inline-block;
+}*/
+
+/*.es-swatches-container {
+	border-radius: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	margin-top: -10px;
+}*/
+
+.es-swatches {
+	padding: 5px 5px;
+}
+
+.es-swatches .es-swatch {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	display: inline-block;
+	line-height: 28px;
+	font-size: 14px;
+	text-align: center;
+	/* margin-right: 15px; */
+	cursor: pointer;
+	border: 1px solid transparent;
+	position: relative;
+	/* opacity: 0.5; */
+}
+
+.es-swatch-color{
+	width: 30px;
+	height: 30px;
+}
+
+.es-swatch-image{
+	width: 30px;
+	height: 30px;
+}
+/*
+.es-swatch-label{
+	width: 30px;
+	height: 30px;
+	background-color: #efefef;
+	color: #666666;
+}*/
