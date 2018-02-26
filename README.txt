@@ -7,19 +7,12 @@ Tested up to: 4.9.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Adds functionality to ecksite.de. Includes custom login settings, custom theme for SyntaxHighlighter Evolved...
+Simple extension for Wordpress with WooCommerce + WooCommerce Variation Swatches (by Themealien) installed. Make single attribute swatches (Type: Color or Image) appear in product listings. Needs WooCommerce + WooCommerce Variation Swatches (by Themealien) in order to work.
 
 == Description ==
 
- Adds functionality to ecksite.de:
-
- Includes custom login settings:
-  -change Login Logo
-  -change all Placeholder Texts
-  -show custom section with title, text, button
-
- Includes a custom theme for SyntaxHighlighter Evolved (must be installed and activated)
-
+This Plugin is just a simple extension for Wordpress with WooCommerce + WooCommerce Variation Swatches (by Themealien) installed. It adds swatches, set by WooCommerce Variation Swatches (by Themealien) to the product listing pages. Swatches are only be shown if the product has just one single swatch, and the swatches type is an image or a color.
+No object orientation, no settings, just some lines of code. Feel free to use or expand it.
 
 A few notes about the sections above:
 
@@ -28,46 +21,17 @@ A few notes about the sections above:
 This section describes how to install the plugin and get it working.
 
 
-1. Upload 'es-addons.php' to the '/wp-content/plugins/' directory
+1. Upload the plugin folder to '/wp-content/plugins/' directory or install it as zip from within wordpress plugin install window
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Change Settings in 'Settings'->'esAddons' menu in Wordpress
+3. There are no settings at the moment, so it will just work
 
 == Frequently Asked Questions ==
 
-= How did you make the fancy login-extra style =
+= It does not work! WHY? =
 
-All styles for 'login-extra' have been created using CSS and JS. Therefore it will only work in browsers, that have JS enabled!
+Please make sure you've got WooCommerce and WooCommerce Variation Swatches (by Themealien) installed. Otherwise there will be no function at all...
 
 == Changelog ==
 
-= 1.0.7 =
-* Fixed some bugs
-
-= 1.0.6 =
-* Updated SEO Serp Snippet Tool (improved: load meta from URL)
-* Updated serp snippet generator layout
-* Cleaned Code
-
-= 1.0.5 =
-* Added Remove Emoji Option (fixes problems in serp snippet generator)
-* Updated serp snippet generator layout
-* Temporarily removed serp snippet generator load from url (due to some crossorigin issues)
-
-= 1.0.4 =
-* Updated SEO Serp Snippet Tool (new: load meta from URL, advanced settings, insert unicode emoji/icons)
-
-= 1.0.3 =
-* Added SEO Serp Snippet Tool ( [tool_serp_snippet] Shortcode )
-
-= 1.0.2 =
-* Added Recent Posts by Category Widget Option.
-
-= 1.0.1 =
-* Added Contextual Related Posts Plugin Functionality.
-
 = 1.0.0 =
-First stable Version
-* Added de_DE language.
-
-= 0.1 =
 Initial release
